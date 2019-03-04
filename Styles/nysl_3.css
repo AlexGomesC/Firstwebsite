@@ -1,0 +1,226 @@
+body {
+  font-family: sans-serif;
+}
+
+/*
+.pre-header {
+    background-color: aliceblue;
+}
+*/
+
+.logo {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  top: 10px;
+  left: 10px;
+  /*    margin-right: 10px;*/
+}
+
+.header {
+  /*    border: 6px solid black;*/
+  height: 100px;
+  /*    align-content: center;*/
+  background: linear-gradient(white, aliceblue);
+
+  /*    margin: 10px;*/
+  /*    padding: 20px;*/
+  /*    width: 1200px;*/
+  /*    position: fixed;*/
+  /*    img: url("../pictures/young_athletes.jpg");*/
+  /*
+    background-position: 0px -110px;
+    background-size: contain;
+
+        background-size: 1200px;
+    background-repeat: no-repeat;
+*/
+}
+
+form {
+  margin: 300px;
+}
+
+input[type="text"] {
+  border-style: hidden;
+  border-bottom-style: solid;
+  width: 800px;
+  /* line-height: 20px; */
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 15px;
+  /*    margin-right: 10px;*/
+  margin-top: 20px;
+  color: navy;
+}
+
+.background {
+  /*    margin-right: 10px*/
+  /* width: 100%; */
+  /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%); */
+}
+
+/*.background-image{} url(../Pictures/young_athletes.jpg);*/
+
+/* tr :first-child {
+    width: 150px;
+    margin: 10px;
+} */
+
+table {
+  margin: 15px 15px 15px 15px;
+}
+
+.subtitle {
+  /*    position: absolute;*/
+  text-indent: 800px;
+  top: 335px;
+  /*    border: 5px solid black;*/
+  /* background: linear-gradient (aliceblue, white); */
+  /* color: aliceblue; */
+  font-size: 30px;
+  /*    width: 1190px;*/
+  margin: 0;
+}
+
+/* .background::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgb(85, 80, 80) 100%);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+} */
+
+/* h2 {
+    left: 300;
+} */
+
+div {
+  marginleft: 10px;
+}
+
+.sidenav {
+  top: 230px;
+  display: block;
+  position: fixed;
+}
+
+.sidenav a {
+  display: block;
+}
+
+.main {
+  display: block;
+  top: 560px;
+  left: 350px;
+  right: 300px;
+  text-align: left;
+  margin-left: 400px;
+  width: 1200px;
+}
+
+.sidenav a {
+  font-size: 20px;
+  color: white;
+  border: 2px ridge blue;
+  box-shadow: 5px 5px rgb(100, 100, 231);
+  background: #66aad8;
+  margin: 20px 20px;
+  padding: 2px 10px 2px 10px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.sidenav a:hover,
+.sidenav a:visited,
+.sidenav a:link,
+.sidenav a:active {
+  text-decoration: none;
+}
+
+.sidenav a:hover {
+  background: white;
+  color: cornflowerblue;
+}
+
+h3 {
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+
+.note {
+  text-indent: 400px;
+}
+
+h4 {
+  font-style: italic;
+  text-indent: 600px;
+  font-size: 20px;
+}
+
+h5 {
+  text-decoration: underline;
+  /* font-size: */
+}
+
+h6 {}
+
+.gameLocations {
+  text-align: justify;
+}
+
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: left;
+}
+
+
+th {
+  /* font-style: */
+}
+
+.date {
+  /*    display: inline-block;*/
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.text {
+  margin: 30px;
+  margin-top: 0px;
+  font-size: 18px;
+  /*    text-indent: 20px;*/
+}
+
+/* 
+#section1 {
+  display: flex;
+  /* flex-direction: column; */
+#section1 {
+  width: 300px;
+  line-height 25px;
+}
+
+*/ .twoInputsNext {
+  display: flex;
+  /* justify-content: space-around; */
+  align-content: flex-start;
+  width: 600px;
+  /* margin-right: 10px;
+    justify-content: space-between; */
+}
+
+.inputsbelow {
+  display: flex;
+  flex-direction: column;
+}
